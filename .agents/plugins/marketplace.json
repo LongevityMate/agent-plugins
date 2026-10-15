@@ -1,0 +1,20 @@
+{
+  "name": "longevitymate",
+  "interface": {
+    "displayName": "LongevityMate"
+  },
+  "plugins": [
+    {
+      "name": "longevitymate-library",
+      "source": {
+        "source": "local",
+        "path": "./plugins/longevitymate-library"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    }
+  ]
+}
